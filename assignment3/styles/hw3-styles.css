@@ -1,0 +1,144 @@
+blockquote {
+  text-align: justify;
+  width: 50%;
+  margin-left: 25%;
+  /*background-color: coral;*/
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  /* maybe not this time :) Can you give some tips on how to implement background images?
+  background-image: url("https://images8.alphacoders.com/438/438097.jpg") */
+}
+
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* mmm points */
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1%;
+  border-color: black;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+nav a {
+  border: solid 3px blue;
+  margin: 20px 20px 0 10px;
+  padding: 20px;
+}
+
+ul {
+  text-align: center;
+}
+
+  ul li {
+    display: block
+  }
+
+blockquote footer {
+  text-align: right;
+  font-size: 11pt;
+}
+
+h2 span {
+  font-size: 12pt;
+}
+
+#timerDiv {
+  text-align: right;
+  display: inline-block;
+}
+
+#submitButton {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* iphone 6 */
+@media(min-width: 375px) {
+
+ nav a {
+   display: block;
+ }
+
+ blockquote {
+   text-align: justify;
+   width: 75%;
+   margin-left: 12.5%;
+ }
+
+ #intro, #rortyLove, #commentText {
+   text-align: center;
+   width: 75%;
+   margin-left: 12.5%;
+ }
+
+ #commentText {
+   text-align: left;
+   word-wrap: break-word;
+   rows: 3;
+   height: 48pt;
+   margin-bottom: 5px;
+ }
+
+ #toggleNightAndDay {
+   margin-top: 10pt;
+   margin-left: 60%;
+   display: inline-block;
+ }
+
+}
+
+/* ipad air */
+@media(min-width: 768px) {
+
+  nav a {
+    display: inline-block;
+  }
+
+  #commentText {
+    height: 36pt;
+  }
+
+  #toggleNightAndDay {
+    margin-left: 75%;
+  }
+
+}
+
+/* laptop */
+@media(min-width: 1280px) {
+
+  blockquote {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #intro, #rortyLove, #commentText {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #commentText {
+    height: 48pt;
+  }
+
+}

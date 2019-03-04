@@ -1,0 +1,12 @@
+
+p {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+
+span {
+  color:black;
+}
+
+h1 span {color:blue}
